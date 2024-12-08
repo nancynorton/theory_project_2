@@ -1,0 +1,17 @@
+Machine: a (b plus) a
+Initial string: abbbbb
+Depth 0: q0|a|bbbbb
+Depth 1: aq1|b|bbbb
+Depth 2: abq1|b|bbb
+Depth 2: abq2|b|bbb
+Depth 3: abbq1|b|bb
+Depth 3: abbq2|b|bb
+Depth 4: abbbq1|b|b
+Depth 4: abbbq2|b|b
+Depth 5: abbbbq1|b|
+Depth 5: abbbbq2|b|
+Depth 6: abbbbbq1|_|
+Depth 6: abbbbbq2|_|
+String rejected in 50 steps.
+Total transitions simulated: 11
+Tree depth: 7

@@ -1,0 +1,21 @@
+Machine: a (b plus) a
+Initial string: abbbbbba
+Depth 0: q0|a|bbbbbba
+Depth 1: aq1|b|bbbbba
+Depth 2: abq1|b|bbbba
+Depth 2: abq2|b|bbbba
+Depth 3: abbq1|b|bbba
+Depth 3: abbq2|b|bbba
+Depth 4: abbbq1|b|bba
+Depth 4: abbbq2|b|bba
+Depth 5: abbbbq1|b|ba
+Depth 5: abbbbq2|b|ba
+Depth 6: abbbbbq1|b|a
+Depth 6: abbbbbq2|b|a
+Depth 7: abbbbbbq1|a|
+Depth 7: abbbbbbq2|a|
+Depth 8: abbbbbbaq3|_|
+Depth 9: abbbbbba_qaccept|_|
+String accepted in 9 transitions.
+Total transitions simulated: 15
+Tree depth: 9
